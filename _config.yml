@@ -37,7 +37,7 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:
-    - "/"
+    - "/blog/categories/#이정표"
   Categories:
     - "/blog/"
     - { Java: "/blog/categories/#java" }
