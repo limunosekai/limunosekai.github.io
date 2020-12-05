@@ -53,7 +53,7 @@ nav:
     - { 정보처리기사: "/blog/categories/#정처기" }
     - { 알고리즘: "/blog/categories/#알고리즘" }
     - { 자료구조: "/blog/categories/#자료구조" }
-    - { 이정표: "/blog/categories/#이정표" }
+    - { 이정표: "/blog/categories/#로그포스" }
     - { 개발관련: "/blog/categories/#개발관련" }
   About:
     - "/about/"
