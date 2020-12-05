@@ -22,8 +22,8 @@
   visibility: hidden;
   overflow-y: auto;
   font-family: "Gamja Flower", cursive;
-  font-size: 18px
-  color: $white;
+  font-size: 24px;
+  color: white;
   @include transition(all 0.3s ease-in-out);
 
   @if $reverse-layout {
@@ -72,7 +72,7 @@
     content: "";
     padding-left: 1em;
   }
-  font-size: 85%;
+  font-size: 100%;
   line-height: 85%;
 }
 .sidebar-nav-item.active,
@@ -245,7 +245,7 @@ a.sidebar-nav-item:focus {
   }
 }
 .sidebar-personal-info-section {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .sidebar-personal-info-section .notice {
