@@ -1,10 +1,10 @@
 # Site Info
-title: '리무 월드'
-tagline: '리무 월드'
-description: '이정표<br>바이블<br>회고록'
-baseurl: ''
+title: "리무 월드"
+tagline: "리무 월드"
+description: "이정표<br>바이블<br>회고록"
+baseurl: ""
 url: http://limu.github.io
-logo: '/public/logo.png'
+logo: "/public/logo.png"
 
 # Site configurations
 gems:
@@ -12,12 +12,12 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
-excerpt_separator: '<!-- more -->'
+excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: "/blog/page:num"
 permalink: pretty
 
 version: 1.0.0
@@ -26,37 +26,45 @@ version: 1.0.0
 author:
   name: 리무 (LIM SEONGHYEON)
   description: Henry LIM 혹은 リム
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin: https://www.linkedin.com/in/lizhihao
+    # linkedin: <hide>
     github: https://github.com/limu
     # facebook:  <hide>
-    twitter: <hide>
-    weibo: <hide>
+    # twitter: <hide>
+    # weibo: <hide>
     email: mailto:powerlsh0103@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
   Home:
-    - '/'
-  Blog:
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - "/"
+  Categories:
+    - "/blog/"
+    - { Java: "/blog/categories/#java" }
+    - { Javascript: "/blog/categories/#javascript" }
+    - { HTML/CSS: "/blog/categories/#htmlcss" }
+    - { React: "/blog/categories/#react" }
+    - { git: "/blog/categories/#git" }
+    - { Node.js: "/blog/categories/#nodejs" }
+    - { JSP: "/blog/categories/#jsp" }
+    - { JQuery: "/blog/categories/#jquery" }
+    - { Spring: "/blog/categories/#spring" }
+    - { Linux/CentOS: "/blog/categories/#linux" }
+    - { 정보처리기사: "/blog/categories/#정처기" }
+    - { 알고리즘: "/blog/categories/#알고리즘" }
+    - { 자료구조: "/blog/categories/#자료구조" }
+    - { 이정표: "/blog/categories/#이정표" }
+    - { 개발관련: "/blog/categories/#개발관련" }
   About:
-    - '/about/'
+    - "/about/"
   Github Project:
-    - 'http://github.com/limunosekai'
+    - "http://github.com/limunosekai"
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
-
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+tag_page: "/blog/tags/"
+category_page: "/blog/categories/"
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+google_analytics_token: "UA-00000000-1" # leave blank if you don't want google analytics
+disqus_short_name: "limunosekai-github-io" # leave blank if you don't want disqus
