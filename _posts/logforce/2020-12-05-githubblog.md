@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 깃허스 블로그 만들었다
+title: 깃허브 블로그 만들었다
 category: 로그포스
 permalink: /logforce/:year/:month/:day/:title/
 tags: [git, 로그포스]
