@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAVA Day-1
-category: java
+category: Java
 permalink: /java/:year/:month/:day/:title/
 tags: [java]
 comments: true
