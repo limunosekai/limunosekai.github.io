@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JAVA Day-2
+title: Java Day 2
 category: Java
 permalink: /java/:year/:month/:day/:title/
 tags: [java]
