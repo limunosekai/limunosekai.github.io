@@ -44,7 +44,7 @@ nav:
     - { Javascript: "/blog/categories/#javascript" }
     - { HTML/CSS: "/blog/categories/#htmlcss" }
     - { React: "/blog/categories/#react" }
-    - { git: "/blog/categories/#git" }
+    - { Git: "/blog/categories/#git" }
     - { Node.js: "/blog/categories/#nodejs" }
     - { JSP: "/blog/categories/#jsp" }
     - { JQuery: "/blog/categories/#jquery" }
