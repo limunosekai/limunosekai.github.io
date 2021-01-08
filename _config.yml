@@ -49,6 +49,7 @@ nav:
     - { JSP: "/blog/categories/#jsp" }
     - { JQuery: "/blog/categories/#jquery" }
     - { Spring: "/blog/categories/#spring" }
+    - { Database: "/blog/categories/#database" }
     - { Linux/CentOS: "/blog/categories/#linux" }
     - { 정보처리기사: "/blog/categories/#정처기" }
     - { 알고리즘: "/blog/categories/#알고리즘" }
