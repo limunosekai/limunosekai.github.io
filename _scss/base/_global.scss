@@ -9,7 +9,7 @@ body {
 }
 
 html {
-  font-family: "Noto Serif KR", serif;
+  font-family: $font-nanum;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,7 +27,7 @@ h6 {
   font-family: $font-sans;
   font-weight: 400;
   color: $title-color;
-  letter-spacing: -0.025rem;
+  letter-spacing: 0rem;
 }
 
 code {
