@@ -1,7 +1,7 @@
 # Site Info
-title: "리무 월드"
-tagline: "리무 월드"
-description: "이정표<br>바이블<br>회고록"
+title: "Archive"
+tagline: "Archive"
+description: "이정표<br>바이블<br>아카이브"
 baseurl: ""
 url: http://limunosekai.github.io
 logo: "/public/logo.png"
