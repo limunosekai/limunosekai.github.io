@@ -54,7 +54,7 @@ nav:
     - { 알고리즘: "/blog/categories/#알고리즘" }
     - { 자료구조: "/blog/categories/#자료구조" }
     - { 로그포스: "/blog/categories/#로그포스" }
-    - { 개발관련: "/blog/categories/#개발관련" }
+    - { 퍼온자료: "/blog/categories/#퍼온자료" }
   About:
     - "/about/"
   Github Project:
