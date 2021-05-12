@@ -42,7 +42,7 @@ nav:
     - "/blog/"
     - { Java: "/blog/categories/#java" }
     - { Javascript: "/blog/categories/#javascript" }
-    - { Typescript: "/blog/categories/#Typescript }
+    - { Typescript: "/blog/categories/#typescript" }
     - { HTML/CSS: "/blog/categories/#htmlcss" }
     - { React: "/blog/categories/#react" }
     - { Git: "/blog/categories/#git" }
