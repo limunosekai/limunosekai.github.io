@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redux-saga
+title: Redux-saga (업데이트 예정)
 category: React
 permalink: /react/:year/:month/:day/:title/
 tags: [React]
@@ -9,7 +9,7 @@ comments: true
 
 ---
 
-## Redux-saga
+## Redux-saga (업데이트 예정)
 
 ---
 
