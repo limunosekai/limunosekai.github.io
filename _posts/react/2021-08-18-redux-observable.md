@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [redux] redux-observable 
+title: redux-observable을 이용한 비동기 처리
 category: React
 permalink: /react/:year/:month/:day/:title/
 tags: [React]
