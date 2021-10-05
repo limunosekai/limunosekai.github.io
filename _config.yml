@@ -52,6 +52,7 @@ nav:
     - { Database: "/blog/categories/#database" }
     - { Network: "/blog/categories/#network" }
     - { Linux/CentOS: "/blog/categories/#linux" }
+    - { devOps: "/blog/categories/#devops" }
     - { 알고리즘: "/blog/categories/#알고리즘" }
     - { 로그포스: "/blog/categories/#로그포스" }
     - { 퍼온자료: "/blog/categories/#퍼온자료" }
