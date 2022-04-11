@@ -15,11 +15,9 @@ comments: true
 
 해당 포스트는 [이펙티브 타입스크립트]\(댄 밴더캄 지음, 장원호 옮김, 인사이트, 2021) 책을 읽으며 정리한 내용입니다.
 
-
-
 ### Item01. 타입스크립트와 자바스크립트의 관계 이해하기
 
-*duck typing : 동적 타이핑의 한 종류로, 객체의 변수 및 메소드의 집합이 객체의 타입을 결정하는 것*
+_duck typing : 동적 타이핑의 한 종류로, 객체의 변수 및 메소드의 집합이 객체의 타입을 결정하는 것_
 
 > 자바스크립트는 타입스크립트의 부분집합이다
 
@@ -41,23 +39,26 @@ comments: true
 
 ```typescript
 const options = [
-    {
-        name: 'foo', age: '11',
-    },
-    {
-        name: 'foo2', age: '13',
-    },
-    {
-        name: 'bar', age: '25',
-    },
+  {
+    name: "foo",
+    age: "11",
+  },
+  {
+    name: "foo2",
+    age: "13",
+  },
+  {
+    name: "bar",
+    age: "25",
+  },
 ];
 
 for (const option of options) {
-    console.log(option.agee); // <--- Error
+  console.log(option.agee); // <--- Error
 }
 ```
 
-![스크린샷 2022-04-11 오후 9.52.59](/Users/henry/Desktop/스크린샷 2022-04-11 오후 9.52.59.png)
+![스크린샷](/assets/post/typescript/2022-04-11-01.png)
 
 하지만, 어떤게 오타인지까지 구분할 수 없기 때문에 명시적으로 타입구문을 적는 것이 옳다
 
