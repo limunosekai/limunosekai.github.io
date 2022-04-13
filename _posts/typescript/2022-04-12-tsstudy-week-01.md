@@ -21,7 +21,7 @@ comments: true
 
 `tsc --init` 후 json 설정파일을 생성할 수 있다. 매우 디테일한 고급설정까지 가능하므로 설정을 이해하는 것은 중요하다.
 
-* `noImplicitAny` : 변수들이 미리 정의된 타입을 가져야하는지 여부 
+- `noImplicitAny` : 변수들이 미리 정의된 타입을 가져야하는지 여부
 
 ```typescript
 function add(a, b) { // <-- Error: 'a' 매개 변수에는 암시적으로 'any' 형식이 포함됩니다
@@ -31,7 +31,7 @@ function add(a, b) { // <-- Error: 'a' 매개 변수에는 암시적으로 'any'
 
 기존 자바스크립트를 타입스크립트로 마이그레이션하는 상황이 아니라면 위 옵션 설정을 해주는 것이 좋다.
 
-* `strictNullChecks` : null | undefined가 모든 타입에서 허용되는지 여부
+- `strictNullChecks` : null & undefined가 모든 타입에서 허용되는지 여부
 
 ```typescript
 const x: number = null; // <-- Error: 'null' 형식은 'number' 형식에 할당할 수 없습니다.
@@ -56,12 +56,11 @@ interface human {
 }
 
 let me: human = {
-  name: null
+  name: null,
 };
 
 console.log(me.name.toString()); // <-- Error: 개체가 'null'인 것 같습니다.
 console.log(me.name!.toString()); // OK
-
 ```
 
 > 확정 할당 어선셜 (Definite Assignment Assertions)
@@ -120,7 +119,7 @@ instanceof 는 런타임에서 일어나는데 트랜스파일 후 타입이 제
 방법1: 해당 속성이 인자에 존재하는지 ?
 
 ```typescript
-if ('mp' in point) {
+if ("mp" in point) {
   // ...
 }
 ```
@@ -129,19 +128,19 @@ if ('mp' in point) {
 
 ```typescript
 interface Human {
-  kind: 'human';
+  kind: "human";
   hp: number;
 }
 interface Wizard {
-  kind: 'wizard';
+  kind: "wizard";
   hp: number;
   mp: number;
 }
 type Point = Human | Wizard;
 
 function buff(point: Point) {
-  if (point.kind === 'wizard') { 
-    return point.hp * point.mp; 
+  if (point.kind === "wizard") {
+    return point.hp * point.mp;
   } else {
     return point.hp * point.hp;
   }
@@ -168,7 +167,7 @@ function asNum(val) {
 
 // 값을 정제하려면 런타임의 타입을 체크하고 연산을 통해 변환한다
 function asNum(val: number | string): number {
-  return typeof(val) === 'string' ? Number(val) : val;
+  return typeof val === "string" ? Number(val) : val;
 }
 ```
 
@@ -185,8 +184,6 @@ function asNum(val: number | string): number {
 타입과 타입 연산자는 트랜스파일 단계에서 제거되므로 런타임 성능에 영향을 주지 않는다.
 
 <br>
-
-
 
 <br>
 
